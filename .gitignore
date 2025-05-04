@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+env3/
+.venv/
+env.bak/
+venv.bak/
+
+# IDEs e Editores
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# ChromeDriver e outros binários
+chromedriver*
+chromedriver.exe
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Uploads do usuário
+uploads/

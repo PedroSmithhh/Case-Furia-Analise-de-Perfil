@@ -1,0 +1,5 @@
+ipywidgets
+pytesseract
+opencv-python
+pdf2image
+selenium
