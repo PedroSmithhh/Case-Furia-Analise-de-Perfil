@@ -88,7 +88,7 @@ O projeto foi projetado para ser executado em um ambiente Jupyter Notebook ou si
    - Nome completo (ex.: "Pedro Israel da Rocha Smith").
    - CPF (ex.: "44182607133").
    - Nome de usuário no X (ex.: "@PedroSmiithh").
-3. **Seção 2**: Faça o upload do RG (em formato PDF ou imagem: `.pdf`, `.png`, `.jpg`, `.jpeg`) para validação.
+3. **Seção 2**: Faça o upload de um documento pessoal(em formato PDF ou imagem: `.pdf`, `.png`, `.jpg`, `.jpeg`) para validação.
 4. **Seção 3**: Clique em "Buscar Perfil" para coletar dados do perfil no X (nome, bio, seguidores, contas seguidas).
 5. **Resumo**: Execute a ultima seção para visualizar todas as informações obtidas através desse projeto
 
@@ -98,9 +98,3 @@ O projeto foi projetado para ser executado em um ambiente Jupyter Notebook ou si
 - **OCR**: A precisão do OCR (Tesseract) pode variar dependendo da qualidade da imagem ou PDF do RG. Imagens de baixa resolução ou com ruído podem levar a falhas na validação.
 - **X**: O scraping de perfis no X depende da estrutura HTML atual da plataforma, que pode mudar. Além disso, requisições frequentes podem ser bloqueadas pelo X. Para uso em larga escala, considere ferramentas OSINT como Social Searcher.
 - **Performance**: O uso do Selenium pode ser lento para grandes volumes de dados devido à necessidade de carregar páginas web.
-
-## Resolução de Possíveis Problemas
-
-- **Erro no Tesseract**: Certifique-se de que o caminho do Tesseract está correto e que o arquivo `por.traineddata` está no diretório `tessdata`.
-- **Erro no ChromeDriver**: Verifique se a versão do ChromeDriver corresponde à sua versão do Chrome e se o executável está no PATH.
-- **Perfil não encontrado no X**: Confirme se o nome de usuário está correto e se o perfil é público. Se o erro persistir, o X pode estar bloqueando requisições automáticas.
