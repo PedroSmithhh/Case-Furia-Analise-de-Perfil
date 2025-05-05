@@ -88,7 +88,7 @@ O projeto foi projetado para ser executado em um ambiente Jupyter Notebook ou si
    - Nome completo (ex.: "Pedro Israel da Rocha Smith").
    - CPF (ex.: "44182607133").
    - Nome de usuário no X (ex.: "@PedroSmiithh").
-3. **Seção 2**: Faça o upload de um documento pessoal(em formato PDF ou imagem: `.pdf`, `.png`, `.jpg`, `.jpeg`) para validação.
+3. **Seção 2**: Faça o upload de um documento pessoal (em formato PDF ou imagem: `.pdf`, `.png`, `.jpg`, `.jpeg`) para validação.
 4. **Seção 3**: Clique em "Buscar Perfil" para coletar dados do perfil no X (nome, bio, seguidores, contas seguidas).
 5. **Resumo**: Execute a ultima seção para visualizar todas as informações obtidas através desse projeto
 
